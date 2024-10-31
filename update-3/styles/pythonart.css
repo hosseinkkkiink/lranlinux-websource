@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    font-family: "B Titr";
+}
+.python{
+    max-width: 40rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    line-height: 2rem;
+    font-family: "B Lotus";
+}
+span{
+    font-family: "B Titr";
+}
+.header {
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-right: 2rem;
+    font-family: "B Titr";
+}
+
+.nav-logo__img {
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    /*margin-right: 20rem;*/
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #081d43;
+    padding: 0 1rem;
+}
+
+.header__link {
+    background-color: #0050c8;
+    padding: 0.8rem 1.5em;
+    color: #fff;
+    border-radius: 0.3rem;
+    text-decoration: none;
+}
+.header__icon{
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+}
+.styleDivbtn{
+    background-color: #0050c8;
+    color: gray;
+}
+.styleBtn:hover {
+    background-color: #1a17e6;
+    color: #fff;
+    border: 5rem;
+}
